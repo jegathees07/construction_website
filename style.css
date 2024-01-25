@@ -1,0 +1,420 @@
+body{
+    font-variant: small-caps;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap:wrap ;
+}
+header{
+    background-image: url(images/beautiful-shot-silhouette-crane-during-sunset.jpg);
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+h1{
+    font-size: 40px;
+    margin-left: 495px;
+    margin-top: -450px;
+    position: absolute;
+    display: flex;
+    background:linear-gradient(90deg,white,rgb(241, 128, 76));
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+.header_name{
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+a{
+    padding: 0px 30px 0px 30px;
+    font-size: 20px;
+    font-variant: normal;
+    text-decoration: none;
+    color: white;
+}
+.nav{
+    margin-top: 50px;
+    margin-left: 130px;
+}
+b{
+    font-size: 45px;
+    position: absolute;
+    margin-top: -250px;
+    left: 630px;
+    display: flex;
+    background:linear-gradient(90deg,rgb(236, 236, 250),rgb(200, 243, 7));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.first_content{
+    width: 350px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+    text-indent: 30px;
+    position: absolute;
+    margin-top: -350px;
+    left: 60px;
+    border: 1px solid rgb(245, 242, 242);
+    height: 490px;
+    padding: 0px 20px;
+    background: transparent;
+    backdrop-filter:blur(10px);
+    border-radius: 20px;
+    color: white;
+}
+.first_content a{
+    border: 1px solid black;
+    color: white;
+    padding: 12px 15px;
+    border-radius: 20px;
+    margin-left: 90px;
+    background-color: rgb(252, 7, 7);
+}
+.vedio1{
+    border: 1px solid white;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+h2{
+    color:red;
+    font-size: 55px;
+    margin-left: 660px;
+    margin-top:90px;
+}
+.second_content{
+    color: white;
+    margin-left: 820px;
+    width: 450px;
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 23px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    line-height: 35px;
+    margin-top: -340px;
+}
+h3{
+    color:rgb(255, 217, 0) ;
+    font-size: 40px;
+    margin-left: 50px;
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+h5{
+    color: white;
+    font-size: 50px;
+    margin-left: 50px;
+}
+.container_1{
+    width: 620px;
+}
+.tata{
+    color: black;
+    text-align: center;
+}
+.tata_1{
+    margin-left: 50px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 100px;
+    
+}
+.rele{
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 100px;
+}
+.tata_1 img{
+    padding: 40px 20px 40px 20px;
+}
+.rele img{
+    padding: 40px 20px 40px 20px;
+}
+.tata_1 a{
+    margin-left: 85px;
+    border: 1px solid red;
+    border-radius: 20px;
+    background-color: red;
+}
+.rele a{
+    margin-left: 70px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: white;
+    color: red;
+
+}
+.row2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container_2{
+    width: 570px;
+    margin-left: 100px;
+    background-color: rgb(54, 54, 54);
+    border-radius: 20px;
+}
+.project_images{
+    padding: 10px 10px;
+}
+.jega{
+    color: yellow;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+}
+.jega_1{
+    text-align: center;
+    color: white;
+}
+.project_images img{
+    border-radius: 20px;
+}
+.rele_1{
+    margin-top: 100px;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+.rele_1 img{
+    padding: 40px 20px 40px 20px;
+}
+.rele_1 a{
+    margin-left: 60px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: white;
+    color: red;
+}
+.rele_2{
+    margin-top: 100px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.rele_2 img{
+    padding: 40px 20px 40px 20px;
+}
+.rele_2 a{
+    margin-left: 90px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+}
+.sakthi{
+    color: rgb(255, 217, 0);
+    width: 500px;
+    font-size: 20px;
+    margin-left: 50px;
+    position: absolute;
+    margin-top: -20px;
+}
+h6{
+    color:rgb(255, 217, 0) ;
+    font-size: 40px;
+    position: absolute;
+    margin-left: 730px;
+    margin-top: -130px;
+}
+.bigger{
+    font-size: 40px;
+    font-weight: bold;
+}
+.row_3{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.const_1{
+    border: 1px solid black;
+    padding: 10px 40px ;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 15px rgb(255, 217, 0);
+}
+.sec4{
+    width: 1340px;
+    background-color: white;
+    margin-left: -2px;
+}
+.other{
+    color: red;
+}
+.ser_1{
+    font-size: 40px;
+    margin-left: 50px;
+    margin-top: -70px;
+    color:rgb(255, 217, 0) ;
+}
+.dark_1{
+    margin-left: 130px;
+    border: 1px solid black;
+    padding: 40px 60px;
+    position: absolute;
+    margin-top: -80px;
+    background-color: white;
+    color: rgb(255, 217, 0) ;
+}
+.dark_1:hover{
+    background-color: #00fffc;
+    box-shadow: 0px 0px 15px #00fffc;
+    transition: all 1s ;
+    border-radius: 20px;
+    color: white;
+}
+.dark{
+    text-align: center;
+}
+.dark_2{
+    margin-left: 60px;
+    border: 1px solid black;
+    padding: 40px 55px 20px 55px;
+    position: absolute;
+    left: 450px;
+    margin-top: -80px;
+    background-color: white;
+    color: rgb(255, 217, 0) ;
+}
+.dark_2:hover{
+    background-color: chartreuse;
+    box-shadow: 0px 0px 15px chartreuse;
+    transition: all 1s ;
+    border-radius: 20px;
+    color: white;
+    }
+.dark_3{
+    margin-left: 60px;
+    border: 1px solid black;
+    padding: 40px 55px 20px 55px;
+    position: absolute;
+    left:840px ;
+    margin-top: -80px;
+    background-color: white;
+    color: rgb(255, 217, 0) ;
+}
+.dark_3:hover{
+    background-color: crimson;
+    box-shadow: 0px 0px 15px crimson;
+    transition: all 1s ;
+    border-radius: 20px;
+    color: white;
+    }
+.head{
+    border: 1px solid white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    background-color: skyblue;
+    color: white;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: -270px;
+}
+.stack{
+    position: absolute;
+    margin-top: -200px;
+    color:rgb(255, 217, 0) ;
+}
+hr{
+    margin-top: 270px;
+}
+input{
+    width: 400px;
+    height: 30px;
+    margin-top: 60px;
+    margin-left: 150px;
+}
+button{
+    width: 100px;
+    height: 36px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    margin-top: 60px;
+}
+.last{
+    color: red;
+    margin-top: -10px;
+    margin-left: 70px;
+}
+table{
+    color: white;
+    text-align: justify;
+    margin-left: 50px;
+    margin-top: -40px;
+    font-variant: normal;
+    text-transform: capitalize;
+}
+th,td{
+    padding: 10px 15px;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.last_5{
+    margin-left: 180px;
+}
+label{
+    margin-left: 170px;
+    position: absolute;
+    font-size: 18px;
+    font-variant: normal;
+    text-transform: capitalize;
+    margin-top: 68px;
+    color: gainsboro;
+}
+.last_img{
+    margin-left: -240px;
+    position: absolute;
+    margin-top: 16px;
+}
+.last_img_1{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -175px;
+}
+.last_img_2{
+    position: absolute;
+    margin-top: 18px;
+    margin-left: -108px;
+}
+.last_img_3{
+    position: absolute;
+    margin-top: 20px;
+    margin-left:-40px ;
+}
+.last_img_0{
+    position: absolute;
+    margin-left: 1300px;
+    margin-top: -70px;
+}
+.connect{
+    color: white;
+    font-size: 20px;
+    margin-left: 1070px;
+    margin-top: -90px;
+    position: absolute;
+}
